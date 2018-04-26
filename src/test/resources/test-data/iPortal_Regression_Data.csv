@@ -1,0 +1,59 @@
+	"	ScenarioName",Iteration,UserId,Password,PolicyNumber,PolicyDate,CardName,CreditCardNumber,DebitCardNumber,CardExpirationDate,CardZipCode,CardNickname,AccountHolderName,RoutingNumber,AccountNumber,AccountNickname
+Validate customer overview page for proposed policy:Chrome,1,,,VASS900034795,3/12/2018
+Validate customer overview page for proposed policy:InternetExplorer,2,,,VASS900034795,3/12/2018
+Validate customer overview page for proposed policy:Firefox,3,,,VASS900034795,3/12/2018
+Validate customer overview page for Active policy:Chrome,1,,,VASS900034795,3/12/2018
+Validate customer overview page for Active policy:InternetExplorer,2,,,VASS900034795,3/12/2018
+Validate customer overview page for Active policy:Firefox,3,,,VASS900034795,3/12/2018
+Automatic policy linkage Browser:Chrome,1,,,VAH3900031143,3/12/2018
+Automatic policy linkage Browser:InternetExplorer,2,,,VAH3900031143,3/12/2018
+Automatic policy linkage Browser:Firefox,3,,,VAH3900031143,3/12/2018
+Automatic policy linkage donot link PUP Browser:Chrome,1,,,VAH4900034214,3/12/2018
+Automatic policy linkage donot link PUP Browser:InternetExplore,2,,,VAH4900034214,3/12/2018
+Automatic policy linkage donot link PUP Browser:Firefox,3,,,VAH4900034214,3/12/2018
+eValue Policy Document Alert message:Chrome,1,,,VASS900034795,3/12/2018
+eValue Policy Document Alert message:InternetExplorer,2,,,VASS900034795,3/12/2018
+eValue Policy Document Alert message:Firefox,3,,,VASS900034795,3/12/2018
+eValue Active Policy Preference Alert message:Chrome,1,,,VASS900034795,3/12/2018
+eValue Active Policy Preference Alert message:InternetExplorer,2,,,VASS900034795,3/12/2018
+eValue Active Policy Preference Alert message:Firefox,3,,,VASS900034795,3/12/2018
+eValue Policy Document Alert message:Chrome,1,,,VASS900034795,3/12/2018
+eValue Policy Document Alert message:InternetExplorer,2,,,VASS900034795,3/12/2018
+eValue Policy Document Alert message:Firefox,3,,,VASS900034795,3/12/2018
+eValue Pending Policy Preference Alert message:Chrome,1,,,VASS900036002,3/12/2018
+eValue Pending Policy Preference Alert message:InternetExplorer,2,,,VASS900036002,3/12/2018
+eValue Pending Policy Preference Alert message:Firefox,3,,,VASS900036002,3/12/2018
+Paperless Preference OptIn Policy email address in the preference card:Chrome,1,,,VASS900036305,3/12/2018
+Paperless Preference OptIn Policy email address in the preference card:InternetExplorer,2,,,VASS900036305,3/12/2018
+Paperless Preference OptIn Policy email address in the preference card:Firefox,3,,,VASS900036305,3/12/2018
+Paperless Preference OptInPending Policy email address in the preference card:Chrome,1,,,VASS900036002,3/12/2018
+Paperless Preference OptInPending Policy email address in the preference card:InternetExplorer,2,,,VASS900036002,3/12/2018
+Paperless Preference OptInPending Policy email address in the preference card:Firefox,3,,,VASS900036002,3/12/2018
+Paperless Preference OptInpending Policy message in the preference card:Chrome,1,,,VASS900029269,3/12/2018
+Paperless Preference OptInpending Policy message in the preference card:InternetExplorer,2,,,VASS900029269,3/12/2018
+Paperless Preference OptInpending Policy message in the preference card:Firefox,3,,,VASS900029269,3/12/2018
+Paperless Preferences OptInPending Status:Chrome,1,,,VASS900029269,3/12/2018
+Paperless Preferences OptInPending Status:InternetExplorer,2,,,VASS900029269,3/12/2018
+Paperless Preferences OptInPending Status:Firefox,3,,,VASS900029269,3/12/2018
+OptInPending Policy Preference Set validation:Chrome,1,,,VASS900036002,3/12/2018
+OptInPending Policy Preference Set validation:InternetExplorer,2,,,VASS900036002,3/12/2018
+OptInPending Policy Preference Set validation:Firefox,3,,,VASS900036002,3/12/2018
+Paperless Preferences OptIn Status:Chrome,1,,,VASS900034795,3/12/2018
+Paperless Preferences OptIn Status:InternetExplorer,2,,,VASS900034795,3/12/2018
+Paperless Preferences OptIn Status:Firefox,3,,,VASS900034795,3/12/2018
+Paperless Preferences OptOut Status:Chrome,1,,,VASS900036000,3/12/2018
+Paperless Preferences OptOut Status:InternetExplorer,2,,,VASS900036000,3/12/2018
+Paperless Preferences OptOut Status:Firefox,3,,,VASS900036000,3/12/2018
+Make payment with Credit card:Chrome,1,,,VASS900029269,3/12/2018,1/15/2015,JN1CA21D8WM920101,OWNED,NO,YES,NO,YES,YES,NO,LeeCanton,5454545454545454,4112344112344113,10/2020,84003,lee,lee,121000358,1234567890,john
+Make payment with Credit card:InternetExplorer,2,,,VASS900029269,3/12/2018,1/15/2015,JN1CA21D8WM920101,OWNED,NO,YES,NO,YES,YES,NO,LeeCanton,5454545454545454,4112344112344113,10/2020,84003,lee,lee,121000358,1234567890,john
+Make payment with Credit card:Firefox,3,,,VASS900029269,3/12/2018,1/15/2015,JN1CA21D8WM920101,OWNED,NO,YES,NO,YES,YES,NO,LeeCanton,5454545454545454,4112344112344113,10/2020,84003,lee,lee,121000358,1234567890,john
+Make payment with Debit card:Chrome,1,,,VASS900029269,3/12/2018,1/15/2015,JN1CA21D8WM920101,OWNED,NO,YES,NO,YES,YES,NO,LeeCanton,5454545454545454,4112344112344113,10/2020,84003,lee,lee,121000358,1234567890,john
+Make payment with Debit card:InternetExplorer,2,,,VASS900029269,3/12/2018,1/15/2015,JN1CA21D8WM920101,OWNED,NO,YES,NO,YES,YES,NO,LeeCanton,5454545454545454,4112344112344113,10/2020,84003,lee,lee,121000358,1234567890,john
+Make payment with Debit card:Firefox,3,,,VASS900029269,3/12/2018,1/15/2015,JN1CA21D8WM920101,OWNED,NO,YES,NO,YES,YES,NO,LeeCanton,5454545454545454,4112344112344113,10/2020,84003,lee,lee,121000358,1234567890,john
+Make payment with Checking Account:Chrome,1,,,VASS900029269,3/12/2018,1/15/2015,JN1CA21D8WM920101,OWNED,NO,YES,NO,YES,YES,NO,LeeCanton,5454545454545454,4112344112344113,10/2020,84003,lee,lee,121000358,1234567890,john
+Make payment with Checking Account:InternetExplorer,2,,,VASS900029269,3/12/2018,1/15/2015,JN1CA21D8WM920101,OWNED,NO,YES,NO,YES,YES,NO,LeeCanton,5454545454545454,4112344112344113,10/2020,84003,lee,lee,121000358,1234567890,john
+Make payment with Checking Account:Firefox,3,,,VASS900029269,3/12/2018,1/15/2015,JN1CA21D8WM920101,OWNED,NO,YES,NO,YES,YES,NO,LeeCanton,5454545454545454,4112344112344113,10/2020,84003,lee,lee,121000358,1234567890,john
+Make payment with Savings Account:Chrome,1,,,VASS900029269,3/12/2018,1/15/2015,JN1CA21D8WM920101,OWNED,NO,YES,NO,YES,YES,NO,LeeCanton,5454545454545454,4112344112344113,10/2020,84003,lee,lee,121000358,1234567890,john
+Make payment with Savings Account:InternetExplorer,2,,,VASS900029269,3/12/2018,1/15/2015,JN1CA21D8WM920101,OWNED,NO,YES,NO,YES,YES,NO,LeeCanton,5454545454545454,4112344112344113,10/2020,84003,lee,lee,121000358,1234567890,john
+Make payment with Savings Account:Firefox,3,,,VASS900029269,3/12/2018,1/15/2015,JN1CA21D8WM920101,OWNED,NO,YES,NO,YES,YES,NO,LeeCanton,5454545454545454,4112344112344113,10/2020,84003,lee,lee,121000358,1234567890,john
+

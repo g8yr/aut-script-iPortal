@@ -1,0 +1,79 @@
+#Declare objects/ web-elements with css and xpath locators
+@objects
+  # home page objects
+
+  logo 					     id logo
+  auto_policy_card           xpath //div[@class='slick-slide slick-active']
+  claims_card                id claims-container
+  card_holder 			     id cards-holder
+  payments_card 	         id aaaiePaymentsRenderHook
+  auto_policy_header         xpath //div[@class='slick-slide slick-active']/ul/li[@class='large-12 columns']/h1[contains(text(),'Auto Policy')]
+  policy_info		         xpath //div[@class='slick-slide slick-active']/ul/li/div[@class='row collapse policies-info-holder']
+  policy_details-*           xpath //div[@class='slick-slide slick-active']/ul/li/div[@class='row collapse policies-info-holder']/ul/li
+  link_card                  id link-policy-holder
+  faq_card                   id faq-question
+
+= Page: Home page =
+  @on desktop
+  
+		auto_policy_card:
+          height 76.95px
+          width 476px
+		  below claims_card 8px
+		  # above Print proof of insurance card need to be added
+		  # right-of smarttrek card need to be added
+		  inside card_holder 120px right,8px bottom
+		  color-scheme 100% #FFFFFF
+		  
+		claims_card:
+		  height 76.95px
+          width 476px
+		  below auto_policy_card 8px
+		  # above Print proof of insurance card need to be added
+		  right-of payments_card 8px
+		  inside card_holder 120px right,135px top,604px left
+		  color-scheme 100% #FFFFFF
+		  
+		auto_policy_header:
+		  height 24px
+          width 161px
+		  text is "AUTO POLICY"
+		  css font-size is "24px"
+          css font-family matches ".*Helvetica.*"
+          color-scheme 100% #1778D3 		   
+		  inside auto_policy_card 55px top,50px left,265px right,520px bottom
+     
+        policy_details-1:
+		  height 14px
+          width 107px
+		  below auto_policy_header 4px
+		  text is "AUTO POLICY"
+		  css font-size is "14px"
+          css font-family matches ".*Helvetica.*"
+          color-scheme 100% #767676
+		  inside auto_policy_card 83px top,50px left,319px right,452px bottom
+		  
+		policy_details-2:
+		  height 14px
+          width 245px
+		  below policy_details-1 3px
+		  text is "AUTO POLICY"
+		  css font-size is "14px"
+          css font-family matches ".*Helvetica.*"
+          color-scheme 100% #767676
+		  inside auto_policy_card 100px top,50px left,181px right,485px bottom
+		
+		faq_card:
+		  height 76.95px
+          width 476px
+		  below link_card 8px
+		  inside card_holder 120px right,1955px top,604px left,372px bottom
+		  color-scheme 100% #FFC425	
+
+        link_card:
+		  height 76.95px
+          width 476px
+		  above faq_card 8px
+		  # below print proof insurance card need to be added
+		  inside card_holder 120px right,1689px top,604px left
+		  color-scheme 100% #00338D			  

@@ -1,0 +1,14 @@
+@objects
+# Add Vehicle Button
+ 
+ add_vehicle_button  xpath //span[.=' ADD VEHICLE ']
+ 
+= Page: Home page =
+  @on desktop
+  
+  	add_vehicle_button:
+  		height 20px
+  		width 136px
+  		text is "ADD VEHICLE"
+  		css font-size is "20px"  		
+  		css font-family matches ".*Helvetica.*"

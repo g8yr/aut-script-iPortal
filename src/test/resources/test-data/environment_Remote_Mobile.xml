@@ -1,0 +1,19 @@
+<qa:environment xmlns:qa="urn:model.commons.qatools.yandex.ru">
+	<id>2a54c4d7-7d79-4615-b80d-ffc1107016a1</id>
+	<name>Allure Report</name>
+	<parameter>
+		<name>Platform</name>
+		<key>Platform</key>
+		<value>Mobile</value>
+	</parameter>
+	<parameter>
+		<name>Execution Mode</name>
+		<key>Execution Mode</key>
+		<value>Remote</value>
+	</parameter>
+	<parameter>
+		<name>Application URL</name>
+		<key>Application URL</key>
+		<value>https://mypolicy-evalue.digital.pncie.com/login</value>
+	</parameter>
+</qa:environment>

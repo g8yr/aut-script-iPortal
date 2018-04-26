@@ -1,0 +1,181 @@
+ScenarioName,BrowserName,BrowserVersion,PlatformName
+Make Policy Changes button visible Browser:Chrome,CHROME,65
+Make Policy Changes button visible Browser:InternetExplorer,INTERNET_EXPLORER
+Make Policy Changes button visible Browser:Firefox,FIREFOX,59
+Make Policy Changes button visible Browser:Safari,SAFARI,5.1
+Make Policy Changes button not visible Browser:Chrome,CHROME,65
+Make Policy Changes button not visible Browser:InternetExplorer,INTERNET_EXPLORER,11
+Make Policy Changes button not visible Browser:Firefox,FIREFOX,59
+Make Policy Changes button not visible Browser:Safari,SAFARI,5.1
+Click Make Policy Change Button Browser:Chrome,CHROME,65
+Click Make Policy Change Button Browser:InternetExplorer,INTERNET_EXPLORER,11
+Click Make Policy Change Button Browser:Firefox,FIREFOX,59
+Click Make Policy Change Button Browser:Safari,SAFARI,5.1
+Visible all the vehicles in policy Browser:Chrome,CHROME,65
+Visible all the vehicles in policy Browser:InternetExplorer,INTERNET_EXPLORER,11
+Visible all the vehicles in policy Browser:Firefox,FIREFOX,59
+Visible all the vehicles in policy Browser:Safari,SAFARI,5.1
+Enter Invalid VIN Browser:Chrome,CHROME,65
+Enter Invalid VIN Browser:InternetExplorer,INTERNET_EXPLORER,11
+Enter Invalid VIN Browser:Firefox,FIREFOX,59
+Enter Invalid VIN Browser:Safari,SAFARI,5.1
+PAS VIN Validation Fail Browser:Chrome,CHROME,65
+PAS VIN Validation Fail Browser:InternetExplorer,INTERNET_EXPLORER,11
+PAS VIN Validation Fail Browser:Firefox,FIREFOX,59
+PAS VIN Validation Fail Browser:Safari,SAFARI,5.1
+Enter Future Vehicle purchase date Browser:Chrome,CHROME,65
+Enter Future Vehicle purchase date Browser:InternetExplorer,INTERNET_EXPLORER,11
+Enter Future Vehicle purchase date Browser:Firefox,FIREFOX,59
+Enter Future Vehicle purchase date Browser:Safari,SAFARI,5.1
+Enter Invalid Vehicle purchase date Browser:Chrome,CHROME,65
+Enter Invalid Vehicle purchase date Browser:InternetExplorer,INTERNET_EXPLORER,11
+Enter Invalid Vehicle purchase date Browser:Firefox,FIREFOX,59
+Enter Invalid Vehicle purchase date Browser:Safari,SAFARI,5.1
+Collapse The Expanded AddVehicle Button Browser:Chrome,CHROME,65
+Collapse The Expanded AddVehicle Button Browser:InternetExplorer,INTERNET_EXPLORER,11
+Collapse The Expanded AddVehicle Button Browser:Firefox,FIREFOX,59
+Collapse The Expanded AddVehicle Button Browser:Safari,SAFARI,5.1
+Check the VIN and Purchase Date Prepopulated Browser:Chrome,CHROME,65
+Check the VIN and Purchase Date Prepopulated Browser:InternetExplorer,INTERNET_EXPLORER,11
+Check the VIN and Purchase Date Prepopulated Browser:Firefox,FIREFOX,59
+Check the VIN and Purchase Date Prepopulated Browser:Safari,SAFARI,5.1
+Click Add Vehicle Button Browser:Chrome,CHROME,65
+Click Add Vehicle Button Browser:InternetExplorer,INTERNET_EXPLORER,11
+Click Add Vehicle Button Browser:Firefox,FIREFOX,59
+Click Add Vehicle Button Browser:Safari,SAFARI,5.1
+Enter Vehicle VIN Number Browser:Chrome,CHROME,65
+Enter Vehicle VIN Number Browser:InternetExplorer,INTERNET_EXPLORER,11
+Enter Vehicle VIN Number Browser:Firefox,FIREFOX,59
+Enter Vehicle VIN Number Browser:Safari,SAFARI,5.1
+Check the Next Button Enabled Browser:Chrome,CHROME,65
+Check the Next Button Enabled Browser:InternetExplorer,INTERNET_EXPLORER,11
+Check the Next Button Enabled Browser:Firefox,FIREFOX,59
+Check the Next Button Enabled Browser:Safari,SAFARI,5.1
+Check the VIN and Purchase Date Prepopulated Browser:Chrome,CHROME,65
+Check the VIN and Purchase Date Prepopulated Browser:InternetExplorer,INTERNET_EXPLORER,11
+Check the VIN and Purchase Date Prepopulated Browser:Firefox,FIREFOX,59
+Check the VIN and Purchase Date Prepopulated Browser:Safari,SAFARI,5.1
+Enter Valid Vehicle purchase date Browser:Chrome,CHROME,65
+Enter Valid Vehicle purchase date Browser:InternetExplorer,INTERNET_EXPLORER,11
+Enter Valid Vehicle purchase date Browser:Firefox,FIREFOX,59
+Enter Valid Vehicle purchase date Browser:Safari,SAFARI,5.1
+Check the AddVehicle Flow Browser:Chrome,CHROME,64
+Check the AddVehicle Flow Browser:InternetExplorer,INTERNET_EXPLORER,11
+Check the AddVehicle Flow Browser:Firefox,FIREFOX,59
+Check the AddVehicle Flow Browser:Safari,SAFARI,5.1
+Add Driver and Coverage Positive Flow Browser:Chrome,CHROME,64,WINDOWS
+Add Driver and Coverage Positive Flow Browser:InternetExplorer,INTERNET_EXPLORER,11,WINDOWS
+Add Driver and Coverage Positive Flow Browser:Firefox,FIREFOX,59,WINDOWS
+Add Driver and Coverage Positive Flow Browser:Safari,SAFARI,10.1,MAC
+Make Payment using Credit Card Browser:Chrome,CHROME,65
+Make Payment using Credit Card Browser:INTERNET_EXPLORER,11
+Make Payment using Credit Card Browser:FIREFOX,59
+Make Payment using Credit Card Browser:Safari,SAFARI,5.1
+Set Auto Pay using New Credit Card Browser:Chrome,CHROME,65,WINDOWS
+Set Auto Pay using New Credit Card Browser:InternetExplorer,INTERNET_EXPLORER,11
+Set Auto Pay using New Credit Card Browser:Firefox,FIREFOX,59,WINDOWS
+Set Auto Pay using New Credit Card Browser:Safari,SAFARI,5.1
+Stop Auto Pay Credit Card Browser:Chrome,CHROME,64
+Stop Auto Pay Credit Card Browser:InternetExplorer,INTERNET_EXPLORER,11
+Stop Auto Pay Credit Card Browser:Firefox,FIREFOX,58
+Stop Auto Pay Credit Card Browser:Safari,SAFARI,5.1
+Add vehicle link UI validation for make policy changes,CHROME
+iPortal HealthCheck:Chrome,CHROME,65
+iPortal HealthCheck:InternetExplorer,INTERNET_EXPLORER
+iPortal HealthCheck:Firefox,FIREFOX,59
+Add vehicle link UI validation for make policy changes,CHROME
+Verify Record Wallet Webservice Response,CHROME
+Verify Retrieve Wallet Details Webservice Response,CHROME
+Verify Update Preference Webservice Response,CHROME
+Verify Get Policy Preference Webservice Response,CHROME
+Verify launch of MyPolicy Application,CHROME
+Set Auto Pay using Existing Account Browser:Chrome,CHROME
+Verify Retrieve Payment Transaction Webservice Response,CHROME
+Verify Retrieve Policy Summary Webservice Response,CHROME
+Verify Find Policy Webservice Response,CHROME
+Verify Retrieve Customer Details Webservice Response,CHROME
+Verify Policy Billing Summaries Webservice Response,CHROME
+Verify Retrieve Policy Details Auto Webservice Response,CHROME
+Verify Validate_Retrieve Bill History SOAP Service Response,CHROME
+Verify Validate Retrieve Policy Transaction Details SOAP Service Response,CHROME
+Verify Customer Search Webservice Response,CHROME
+Verify Policy Search Webservice Response,CHROME
+Paperless Preferences OptInPending Status:Chrome,CHROME,64
+Paperless Preferences OptInPending Status:InternetExplorer,INTERNET_EXPLORER
+Paperless Preferences OptInPending Status:Firefox,FIREFOX,59
+Paperless Preference OptInpending Policy message in the preference card:Chrome,CHROME,64
+Paperless Preference OptInpending Policy message in the preference card:InternetExplorer,INTERNET_EXPLORER
+Paperless Preference OptInpending Policy message in the preference card:Firefox,FIREFOX,59
+Make policy changes button Visible,CHROME
+Paperless Preference OptInPending Policy email address in the preference card:Chrome,CHROME,64
+Paperless Preference OptInPending Policy email address in the preference card:InternetExplorer,INTERNET_EXPLORER
+Paperless Preference OptInPending Policy email address in the preference card:Firefox,FIREFOX,59
+Paperless Preference OptIn Policy email address in the preference card:Chrome,CHROME,64
+Paperless Preference OptIn Policy email address in the preference card:InternetExplorer,INTERNET_EXPLORER
+Paperless Preference OptIn Policy email address in the preference card:Firefox,FIREFOX,59
+OptInPending Policy Preference Set validation:Chrome,CHROME,64
+OptInPending Policy Preference Set validation:InternetExplorer,INTERNET_EXPLORER
+OptInPending Policy Preference Set validation:Firefox,FIREFOX,59
+eValue Active Policy Preference Alert message:Chrome,CHROME,64
+eValue Active Policy Preference Alert message:InternetExplorer,INTERNET_EXPLORER
+eValue Active Policy Preference Alert message:Firefox,FIREFOX,59
+eValue Pending Policy Preference Alert message:Chrome,CHROME,64
+eValue Pending Policy Preference Alert message:InternetExplorer,INTERNET_EXPLORER
+eValue Pending Policy Preference Alert message:Firefox,FIREFOX,59
+eValue Policy Policy Document Alert message:Chrome,CHROME,64
+eValue Policy Policy Document Alert message:InternetExplorer,INTERNET_EXPLORER
+eValue Policy Policy Document Alert message:Firefox,FIREFOX,59
+Set Auto Pay using New Debit Card Browser:Chrome,CHROME,65
+Set Auto Pay using New Debit Card Browser:InternetExplorer,INTERNET_EXPLORER,11
+Set Auto Pay using New Debit Card Browser:Firefox,FIREFOX,59
+Set Auto Pay using New Debit Card Browser:Safari,SAFARI,5.1
+Set Auto Pay using New Checking Account Browser:Chrome,CHROME,65
+Set Auto Pay using New Checking Account Browser:InternetExplorer,INTERNET_EXPLORER,11
+Set Auto Pay using New Checking Account Browser:Firefox,FIREFOX,59
+Set Auto Pay using New Savings Account Browser:Chrome,CHROME,65
+Set Auto Pay using New Savings Account Browser:InternetExplorer,INTERNET_EXPLORER,11
+Set Auto Pay using New Savings Account Browser:Firefox,FIREFOX,59
+Set Auto Pay using Existing Credit Card Browser:Chrome,CHROME,65
+Set Auto Pay using Existing Credit Card Browser:InternetExplorer,INTERNET_EXPLORER,11
+Set Auto Pay using Existing Credit Card Browser:Firefox,FIREFOX,59
+Set Auto Pay using Existing Debit Card Browser:Chrome,CHROME,65
+Set Auto Pay using Existing Debit Card Browser:InternetExplorer,INTERNET_EXPLORER,11
+Set Auto Pay using Existing Debit Card Browser:Firefox,FIREFOX,59
+Set Auto Pay using Existing Checking Account Browser:Chrome,CHROME,65
+Set Auto Pay using Existing Checking Account Browser:InternetExplorer,INTERNET_EXPLORER,11
+Set Auto Pay using Existing Checking Account Browser:Firefox,FIREFOX,59
+Set Auto Pay using Existing Saving Account Browser:Chrome,CHROME,65
+Set Auto Pay using Existing Saving Account Browser:InternetExplorer,INTERNET_EXPLORER,11
+Set Auto Pay using Existing Saving Account Browser:Firefox,FIREFOX,59
+Stop Auto Pay Debit Card Browser:Chrome,CHROME,64
+Stop Auto Pay Debit Card Browser:InternetExplorer,INTERNET_EXPLORER,11
+Stop Auto Pay Debit Card Browser:Firefox,FIREFOX,58
+Stop Auto Pay Debit Card Browser:Safari,SAFARI,5.1
+Stop Auto Pay Checking Account Browser:Chrome,CHROME,64
+Stop Auto Pay Checking Account Browser:InternetExplorer,INTERNET_EXPLORER,11
+Stop Auto Pay Checking Account Browser:Firefox,FIREFOX,58
+Stop Auto Pay Checking Account Browser:Safari,SAFARI,5.1
+Stop Auto Pay Saving Account Browser:Chrome,CHROME,64
+Stop Auto Pay Saving Account Browser:InternetExplorer,INTERNET_EXPLORER,11
+Stop Auto Pay Saving Account Browser:Firefox,FIREFOX,58
+Stop Auto Pay Saving Account Browser:Safari,SAFARI,5.1
+Validate customer overview page for proposed policy:Chrome,CHROME,64
+Validate customer overview page for proposed policy:InternetExplorer,INTERNET_EXPLORER,11
+Validate customer overview page for proposed policy:Firefox,FIREFOX,58
+Validate customer overview page for Active policy:Chrome,CHROME,64
+Validate customer overview page for Active policy:InternetExplorer,INTERNET_EXPLORER,11
+Validate customer overview page for Active policy:Firefox,FIREFOX,58
+Automatic policy linkage Browser:Chrome,CHROME,64
+Automatic policy linkage Browser:InternetExplorer,INTERNET_EXPLORER,11
+Automatic policy linkage Browser:Firefox,FIREFOX,58
+Automatic policy linkage donot link PUP Browser:Chrome,CHROME,64
+Automatic policy linkage donot link PUP Browser:InternetExplorer,INTERNET_EXPLORER,11
+Automatic policy linkage donot link PUP Browser:Firefox,FIREFOX,58
+Verify eValue Discount in Discount Section Browser:Chrome,CHROME,64,WINDOWS
+Verify eValue Discount in Discount Section Browser:InternetExplorer,INTERNET_EXPLORER,11,WINDOWS
+Verify eValue Discount in Discount Section Browser:Firefox,FIREFOX,58,WINDOWS
+Verify eValue Discount in Discount Section Browser:Safari,SAFARI,5.1,MAC
+Verify Non eValue Discount in Discount Section Browser:Chrome,CHROME,64,WINDOWS
+Verify Non eValue Discount in Discount Section Browser:InternetExplorer,INTERNET_EXPLORER,11,WINDOWS
+Verify Non eValue Discount in Discount Section Browser:Firefox,FIREFOX,58,WINDOWS
+Verify Non eValue Discount in Discount Section Browser:Safari,SAFARI,5.1,MAC

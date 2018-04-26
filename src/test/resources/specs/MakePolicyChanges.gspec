@@ -1,0 +1,28 @@
+#Declare objects/ web-elements with css and xpath locators
+@objects
+  # Make Policy Changes
+
+  Make_Policy_Changes   xpath //button[@class='endorsement-button endorsement-button-large']
+
+  Active_Pill	xpath //div[@class='pill-short pill-active']
+  PolicyDetails	xpath //div[@class='large-12 columns']	
+
+
+= Make Policy Changes button=
+  @on desktop
+        
+	Make_Policy_Changes:
+		height 48px
+		width 240px
+		#color-scheme 100% #FFFFFF
+		# alignment inside policy details card
+		inside PolicyDetails 271px top,40px left,680px right,46px bottom
+		text is "MAKE POLICY CHANGES"
+		css font-size is "16px"
+		css font-family matches ".*Helvetica.*"
+		#css background-color 100% #1778D3
+
+
+
+
+

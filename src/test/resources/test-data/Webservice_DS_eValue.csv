@@ -1,0 +1,2 @@
+	"	ScenarioName",Iteration,correlationId,userId,transactionType,IP_Address,application,subSystem
+Verify Record Wallet Webservice Response,1,eczarog,eczarog,REALTIME,10.37.128.170,MRM_IG,,,,,,,

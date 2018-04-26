@@ -1,0 +1,86 @@
+ScenarioName,BrowserName,BrowserVersion,PlatformName
+iPortal HealthCheck:Chrome,CHROME,65
+iPortal HealthCheck:InternetExplorer,INTERNET_EXPLORER
+iPortal HealthCheck:Firefox,FIREFOX,59
+Paperless Preferences OptInPending Status:Chrome,CHROME,64,WINDOWS
+Paperless Preferences OptInPending Status:InternetExplorer,INTERNET_EXPLORER,WINDOWS
+Paperless Preferences OptInPending Status:Firefox,FIREFOX,59,WINDOWS
+Paperless Preference OptInpending Policy message in the preference card:Chrome,CHROME,64,WINDOWS
+Paperless Preference OptInpending Policy message in the preference card:InternetExplorer,INTERNET_EXPLORER,WINDOWS
+Paperless Preference OptInpending Policy message in the preference card:Firefox,FIREFOX,59,WINDOWS
+Make policy changes button Visible,CHROME,WINDOWS
+Paperless Preference OptInPending Policy email address in the preference card:Chrome,CHROME,64,WINDOWS
+Paperless Preference OptInPending Policy email address in the preference card:InternetExplorer,INTERNET_EXPLORER,WINDOWS
+Paperless Preference OptInPending Policy email address in the preference card:Firefox,FIREFOX,59,WINDOWS
+Paperless Preference OptIn Policy email address in the preference card:Chrome,CHROME,64,WINDOWS
+Paperless Preference OptIn Policy email address in the preference card:InternetExplorer,INTERNET_EXPLORER,WINDOWS
+Paperless Preference OptIn Policy email address in the preference card:Firefox,FIREFOX,59,WINDOWS
+OptInPending Policy Preference Set validation:Chrome,CHROME,64,WINDOWS
+OptInPending Policy Preference Set validation:InternetExplorer,INTERNET_EXPLORER,WINDOWS
+OptInPending Policy Preference Set validation:Firefox,FIREFOX,59,WINDOWS
+eValue Active Policy Preference Alert message:Chrome,CHROME,64,WINDOWS
+eValue Active Policy Preference Alert message:InternetExplorer,INTERNET_EXPLORER,WINDOWS
+eValue Active Policy Preference Alert message:Firefox,FIREFOX,59,WINDOWS
+eValue Pending Policy Preference Alert message:Chrome,CHROME,64,WINDOWS
+eValue Pending Policy Preference Alert message:InternetExplorer,INTERNET_EXPLORER,WINDOWS
+eValue Pending Policy Preference Alert message:Firefox,FIREFOX,59,WINDOWS
+eValue Policy Policy Document Alert message:Chrome,CHROME,64,WINDOWS
+eValue Policy Policy Document Alert message:InternetExplorer,INTERNET_EXPLORER,WINDOWS
+eValue Policy Policy Document Alert message:Firefox,FIREFOX,59,WINDOWS
+Validate customer overview page for proposed policy:Chrome,CHROME,64,WINDOWS
+Validate customer overview page for proposed policy:InternetExplorer,INTERNET_EXPLORER,11,WINDOWS
+Validate customer overview page for proposed policy:Firefox,FIREFOX,58,WINDOWS
+Validate customer overview page for Active policy:Chrome,CHROME,64,WINDOWS
+Validate customer overview page for Active policy:InternetExplorer,INTERNET_EXPLORER,11,WINDOWS
+Validate customer overview page for Active policy:Firefox,FIREFOX,58,WINDOWS
+Automatic policy linkage Browser:Chrome,CHROME,64,WINDOWS
+Automatic policy linkage Browser:InternetExplorer,INTERNET_EXPLORER,11,WINDOWS
+Automatic policy linkage Browser:Firefox,FIREFOX,58,WINDOWS
+Automatic policy linkage donot link PUP Browser:Chrome,CHROME,64,WINDOWS
+Automatic policy linkage donot link PUP Browser:InternetExplorer,INTERNET_EXPLORER,11,WINDOWS
+Automatic policy linkage donot link PUP Browser:Firefox,FIREFOX,58,WINDOWS
+eValue Policy Document Alert message:Chrome,CHROME,64,WINDOWS
+eValue Policy Document Alert message:InternetExplorer,INTERNET_EXPLORER,11,WINDOWS
+eValue Policy Document Alert message:Firefox,FIREFOX,58,WINDOWS
+eValue Active Policy Preference Alert message:Chrome,CHROME,64,WINDOWS
+eValue Active Policy Preference Alert message:InternetExplorer,INTERNET_EXPLORER,11,WINDOWS
+eValue Active Policy Preference Alert message:Firefox,FIREFOX,58,WINDOWS
+eValue Policy Document Alert message:Chrome,CHROME,64,WINDOWS
+eValue Policy Document Alert message:InternetExplorer,INTERNET_EXPLORER,11,WINDOWS
+eValue Policy Document Alert message:Firefox,FIREFOX,58,WINDOWS
+eValue Pending Policy Preference Alert message:Chrome,CHROME,64,WINDOWS
+eValue Pending Policy Preference Alert message:InternetExplorer,INTERNET_EXPLORER,11,WINDOWS
+eValue Pending Policy Preference Alert message:Firefox,FIREFOX,58,WINDOWS
+Paperless Preference OptIn Policy email address in the preference card:Chrome,CHROME,64,WINDOWS
+Paperless Preference OptIn Policy email address in the preference card:InternetExplorer,INTERNET_EXPLORER,11,WINDOWS
+Paperless Preference OptIn Policy email address in the preference card:Firefox,FIREFOX,58,WINDOWS
+Paperless Preference OptInPending Policy email address in the preference card:Chrome,CHROME,64,WINDOWS
+Paperless Preference OptInPending Policy email address in the preference card:InternetExplorer,INTERNET_EXPLORER,11,WINDOWS
+Paperless Preference OptInPending Policy email address in the preference card:Firefox,FIREFOX,58,WINDOWS
+Paperless Preference OptInpending Policy message in the preference card:Chrome,CHROME,64,WINDOWS
+Paperless Preference OptInpending Policy message in the preference card:InternetExplorer,INTERNET_EXPLORER,11,WINDOWS
+Paperless Preference OptInpending Policy message in the preference card:Firefox,FIREFOX,58,WINDOWS
+Paperless Preferences OptInPending Status:Chrome,CHROME,64,WINDOWS
+Paperless Preferences OptInPending Status:InternetExplorer,INTERNET_EXPLORER,11,WINDOWS
+Paperless Preferences OptInPending Status:Firefox,FIREFOX,58,WINDOWS
+OptInPending Policy Preference Set validation:Chrome,CHROME,64,WINDOWS
+OptInPending Policy Preference Set validation:InternetExplorer,INTERNET_EXPLORER,11,WINDOWS
+OptInPending Policy Preference Set validation:Firefox,FIREFOX,58,WINDOWS
+Paperless Preferences OptIn Status:Chrome,CHROME,64,WINDOWS
+Paperless Preferences OptIn Status:InternetExplorer,INTERNET_EXPLORER,11,WINDOWS
+Paperless Preferences OptIn Status:Firefox,FIREFOX,58,WINDOWS
+Paperless Preferences OptOut Status:Chrome,CHROME,64,WINDOWS
+Paperless Preferences OptOut Status:InternetExplorer,INTERNET_EXPLORER,11,WINDOWS
+Paperless Preferences OptOut Status:Firefox,FIREFOX,58,WINDOWS
+Make payment with Credit card:Chrome,CHROME,64,WINDOWS
+Make payment with Credit card:InternetExplorer,INTERNET_EXPLORER,11,WINDOWS
+Make payment with Credit card:Firefox,FIREFOX,58,WINDOWS
+Make payment with Debit card:Chrome,CHROME,64,WINDOWS
+Make payment with Debit card:InternetExplorer,INTERNET_EXPLORER,11,WINDOWS
+Make payment with Debit card:Firefox,FIREFOX,58,WINDOWS
+Make payment with Checking Account:Chrome,CHROME,64,WINDOWS
+Make payment with Checking Account:InternetExplorer,INTERNET_EXPLORER,11,WINDOWS
+Make payment with Checking Account:Firefox,FIREFOX,58,WINDOWS
+Make payment with Savings Account:Chrome,CHROME,64,WINDOWS
+Make payment with Savings Account:InternetExplorer,INTERNET_EXPLORER,11,WINDOWS
+Make payment with Savings Account:Firefox,FIREFOX,58,WINDOWS
