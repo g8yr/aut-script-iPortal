@@ -17,24 +17,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import ru.yandex.qatools.ashot.AShot;
 import ru.yandex.qatools.ashot.Screenshot;
 import ru.yandex.qatools.ashot.screentaker.ViewportPastingStrategy;
@@ -49,8 +31,6 @@ import com.Cucumber.supportLibraries.DriverManager;
 import com.Cucumber.supportLibraries.IPortalStaticValue;
 import com.Cucumber.supportLibraries.Util;
 import com.Cucumber.supportLibraries.Webaction;
-
-
 
 
 import cucumber.api.java.en.When;
@@ -353,6 +333,92 @@ public class iPortalPaperlessPreferencesFunctions extends MasterStepDefs
 		currentScenario.embed(Util.takeScreenshot(driver),
 				"image/png");
 		
+	}
+
+	public void ValidateEValueIconStatus(String Evalue_Status_Expected) 
+	{
+//		String Evalue_Discount_Apply = dataTable.getData(testParameter, "Evalue_IPortal", "Evaluediscount_Apply");
+//		String Evalue_Status_Expected = dataTable.getData(testParameter, "Evalue_IPortal", "eValue_Status");
+		String eValue_Status_displayed = "";
+		if (action.isDisplayed(iPortalpaperlesspreferences.EValue_Status_Active, "EValue_Status") || action.isDisplayed(iPortalpaperlesspreferences.EValue_Status_Pending, "EValue_Status_Pending")) 
+		{
+			eValue_Status_displayed = action.GetText(iPortalpaperlesspreferences.EValue_Status_Text);
+			currentScenario.embed(Util.takeScreenshot(driver),
+					"image/png");
+		}
+	
+			if (eValue_Status_displayed.equalsIgnoreCase("eValue") ) {
+				if(Evalue_Status_Expected.equalsIgnoreCase("Active"))
+				{
+					//report.updateTestLog("Customer Overview page", "For eValue Active policy, eValue Alert is displayed as Active", Status.PASS);
+					System.out.println("Customer Overview page  : For eValue Active policy, eValue Alert is displayed as Active");
+					currentScenario.embed(Util.takeScreenshot(driver),
+							"image/png");
+				}
+				else if (Evalue_Status_Expected.equalsIgnoreCase("Pending"))
+				{
+					//report.updateTestLog("Customer Overview page", "For eValue Pending policy, eValue Alert is displayed as Active", Status.FAIL);
+					fail("<<<< Customer Overview page : For eValue Pending policy, eValue Alert is displayed as Active>>>>");
+					currentScenario.embed(Util.takeScreenshot(driver),
+							"image/png");
+				}
+				else
+				{
+					//report.updateTestLog("Customer Overview page", "For Non eValue policy, eValue Alert is displayed as Active", Status.FAIL);
+					fail("<<<< Customer Overview page : For Non eValue policy, eValue Alert is displayed as Active>>>>");
+					currentScenario.embed(Util.takeScreenshot(driver),
+							"image/png");
+				}
+			} 			
+			
+			else if (eValue_Status_displayed.equalsIgnoreCase("eValue Pending") ) {
+				if(Evalue_Status_Expected.equalsIgnoreCase("Pending"))
+				{
+					//report.updateTestLog("Customer Overview page", "For eValue Pending policy, eValue Alert is displayed as eValue Pending", Status.PASS);
+					System.out.println("Customer Overview page  : For eValue Pending policy, eValue Alert is displayed as eValue Pending");
+					currentScenario.embed(Util.takeScreenshot(driver),
+							"image/png");
+				}
+				else if (Evalue_Status_Expected.equalsIgnoreCase("Active"))
+				{
+					//report.updateTestLog("Customer Overview page", "For eValue Active policy, eValue Alert is displayed as eValue Pending", Status.FAIL);	
+					fail("<<<< Customer Overview page : For eValue Active policy, eValue Alert is displayed as eValue Pending>>>>");
+					currentScenario.embed(Util.takeScreenshot(driver),
+							"image/png");
+				}
+				else
+				{
+					//report.updateTestLog("Customer Overview page", "For Non eValue policy, eValue Alert is displayed as eValue Pending", Status.FAIL);
+					fail("<<<< Customer Overview page : For Non eValue policy, eValue Alert is displayed as eValue Pending>>>>");
+					currentScenario.embed(Util.takeScreenshot(driver),
+							"image/png");
+				}
+				
+				}
+			else  {
+				if(Evalue_Status_Expected.equalsIgnoreCase("Pending"))
+				{
+					//report.updateTestLog("Customer Overview page", "For eValue Pending policy, eValue alert is not displayed ", Status.FAIL);
+					fail("<<<< Customer Overview page : For eValue Pending policy, eValue alert is not displayed>>>>");
+					currentScenario.embed(Util.takeScreenshot(driver),
+							"image/png");
+				}
+				else if (Evalue_Status_Expected.equalsIgnoreCase("Active"))
+				{
+					//report.updateTestLog("Customer Overview page", "For eValue Active policy, eValue alert is not displayed ", Status.FAIL);
+					fail("<<<< Customer Overview page : For eValue Active policy, eValue alert is not displayed>>>>");
+					currentScenario.embed(Util.takeScreenshot(driver),
+							"image/png");
+				}
+				else
+				{
+					//report.updateTestLog("Customer Overview page", "For Non eValue policy, eValue Alert is not displayed", Status.PASS);
+					System.out.println("Customer Overview page  : For Non eValue policy, eValue Alert is not displayed");
+					currentScenario.embed(Util.takeScreenshot(driver),
+							"image/png");
+				}
+				
+				}		
 	}
 
 }

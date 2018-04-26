@@ -91,4 +91,9 @@ public class iPortalPaperlessPreferencesDef extends MasterStepDefs
 		iPortalpaperlesspreferencesfunctions.ClickPreferenceCancelButton();
 	}
 	
+	@Then("^I check the Evalue (.*) Icon Status")
+	public void ChkEValueIconStatus(String EvalueStatus)
+	{
+		iPortalpaperlesspreferencesfunctions.ValidateEValueIconStatus(EvalueStatus);
+	}
 }

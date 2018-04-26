@@ -31,5 +31,9 @@ public class iPortalPaperlessPreferencesPage
 	public By Get_Billing_Preference_Text = By.xpath("//*[@class='reveal-modal row paperless-preferences-edit open']/div[3]/ul/li[2]/div[1]/p");
 	
 	public By Edit_Email = By.xpath("//input[@id='optionsEmail']");
-	public By Edit_Email_Clear = By.xpath("//div[@id='clearOptionsEmail']");	
+	public By Edit_Email_Clear = By.xpath("//div[@id='clearOptionsEmail']");
+	
+	public By EValue_Status_Active = By.xpath("//div[.='eValue']");
+	public By EValue_Status_Pending = By.xpath("//div[.='eValue Pending']");
+	public By EValue_Status_Text = By.xpath("//div[@class='membership-container']/div[1]");
 }

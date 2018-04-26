@@ -84,3 +84,12 @@ Make payment with Checking Account:Firefox,FIREFOX,58,WINDOWS
 Make payment with Savings Account:Chrome,CHROME,64,WINDOWS
 Make payment with Savings Account:InternetExplorer,INTERNET_EXPLORER,11,WINDOWS
 Make payment with Savings Account:Firefox,FIREFOX,58,WINDOWS
+Evalue Active Icon Status Validation:Chrome,CHROME,64,WINDOWS
+Evalue Active Icon Status Validation:InternetExplorer,INTERNET_EXPLORER,11,WINDOWS
+Evalue Active Icon Status Validation:Firefox,FIREFOX,58,WINDOWS
+Evalue Pending Icon Status Validation:Chrome,CHROME,64,WINDOWS
+Evalue Pending Icon Status Validation:InternetExplorer,INTERNET_EXPLORER,11,WINDOWS
+Evalue Pending Icon Status Validation:Firefox,FIREFOX,58,WINDOWS
+Evalue NoneValue Icon Status Validation:Chrome,CHROME,64,WINDOWS
+Evalue NoneValue Icon Status Validation:InternetExplorer,INTERNET_EXPLORER,11,WINDOWS
+Evalue NoneValue Icon Status Validation:Firefox,FIREFOX,58,WINDOWS
