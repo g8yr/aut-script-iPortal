@@ -14,7 +14,7 @@
 			<id>Experitest.repo1</id>
 			<url>http://repo.experitest.com:8010/Maven2/</url>
 		</repository>
-		<repository>
+		<!--<repository>
 			<id>CSAAQAAUTOMATIONGROUP</id>
 			<name>CSAAQAAUTOMATIONGROUP</name>
 			<url>https://devnexus.tent.trt.csaa.pri:8443/nexus/content/groups/CSAAQAAUTOMATIONGROUP/</url>
@@ -24,7 +24,7 @@
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
-		</repository>
+		</repository>-->
 	</repositories>
 
 	<properties>
@@ -46,7 +46,7 @@
 				<activeByDefault>false</activeByDefault>
 			</activation>
 			<properties>
-				<testNG.suiteXmlFile>src/test/resources/suite_xml/InSprint/TestNGRunSprint27Tests.xml</testNG.suiteXmlFile>
+				<testNG.suiteXmlFile>src/test/resources/suite_xml/Regression/iPortal/TestNGRuniPortalRegTests.xml</testNG.suiteXmlFile>
 			</properties>
 			<build>
 				<plugins>
@@ -146,7 +146,7 @@
 			</activation>
 			<properties>
 
-				<testNG.suiteXmlFile>src/test/resources/suite_xml/InSprint/TestNGRunSprint27Tests.xml</testNG.suiteXmlFile>
+				<testNG.suiteXmlFile>src/test/resources/suite_xml/Regression/iPortal/TestNGRuniPortalRegTests.xml</testNG.suiteXmlFile>
 
 			</properties>
 			<build>
