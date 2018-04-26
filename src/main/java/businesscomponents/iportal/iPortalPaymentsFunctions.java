@@ -77,7 +77,8 @@ public class iPortalPaymentsFunctions extends MasterStepDefs
 		action.movetoElement(iportalpaymentpage.PAY_BUTTON,"paymentpage AutoPaylink");
 		currentScenario.embed(Util.takeScreenshot(driver),
 				"image/png");
-		action.ClickElement(iportalpaymentpage.PAY_BUTTON);
+		action.ClickJSElement(iportalpaymentpage.PAY_BUTTON,"PAY BUTTON");
+		
 		
 	}
 	
@@ -103,7 +104,7 @@ public class iPortalPaymentsFunctions extends MasterStepDefs
 		{
 			action.ClickJSElement(iportalpaymentpage.Account_Type_Debit_Card, Account_Type_Value);
 			action.EnterText(iportalpaymentpage.CARD_NAME, Credit_Card_Name);
-			action.EnterText(iportalpaymentpage.CREDIT_CARD_NUMBER, Credit_Card_Number);
+			action.EnterText(iportalpaymentpage.CREDIT_CARD_NUMBER, Debit_Card_Number);
 			action.EnterText(iportalpaymentpage.CREDIT_CARD_ZIPCODE, Credit_Card_Zipcode);
 			action.EnterText(iportalpaymentpage.CREDIT_CARD_EXPIRATION_DATE, Credit_Card_Expirationdate);
 			currentScenario.embed(Util.takeScreenshot(driver),
@@ -119,7 +120,7 @@ public class iPortalPaymentsFunctions extends MasterStepDefs
 			currentScenario.embed(Util.takeScreenshot(driver),
 					"image/png");
 		} 
-		else if ((Account_Type_Value.equals("Saving Account"))) 
+		else if ((Account_Type_Value.equals("Savings Account"))) 
 		{
 			action.ClickJSElement(iportalpaymentpage.Account_Type_Saving_Account, Account_Type_Value);
 			action.EnterText(iportalpaymentpage.CARD_NAME, Account_Holder_Name);
@@ -137,7 +138,7 @@ public class iPortalPaymentsFunctions extends MasterStepDefs
 
 	public void verifyEFTPayConfirmationPage() 
 	{
-		String name ="Anusha.Srinivasan@csaa.com";
+		String name ="evalueoffshore+9038@gmail.com";
 		String number = action.GetTextValue(iportalpaymentpage.CONFIRMATION_NUMBER_EFT_Pay,"CONFIRMATION NUMBER EFT Pay");
 		String actMsg=action.GetText(iportalpaymentpage.EFTPAY_CONFIRMATION_TEXT);
 		actMsg = actMsg.replaceAll("[\\[\\]]", "").replaceAll(",", "");

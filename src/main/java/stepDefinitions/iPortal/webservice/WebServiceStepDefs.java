@@ -106,7 +106,7 @@ public class WebServiceStepDefs extends MasterStepDefs {
 		iPortalwebservicefunctions.callRetrieveBillingHistoryReponse();
 	}
 	@Then("^I Validate Retrieve Policy Transaction Details SOAP Service")
-	public void retrievePolicyTransactionResponse() throws KeyManagementException, NoSuchAlgorithmException, KeyStoreException, URISyntaxException, JSONException, JsonParseException, JsonMappingException, UnsupportedOperationException, IOException
+	public void retrievePolicyTransactionResponse() throws KeyManagementException, NoSuchAlgorithmException, KeyStoreException, URISyntaxException, JSONException,  JsonMappingException, UnsupportedOperationException, IOException ,JsonParseException
 	{
 		iPortalwebservicefunctions.callRetrievePolicyTransactionReponse();
 	}
