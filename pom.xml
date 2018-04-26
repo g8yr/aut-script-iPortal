@@ -565,31 +565,43 @@
 			<groupId>org.csaa.automation.soa.hc</groupId>
 			<artifactId>RetrieveAutoPolicyDetailV2</artifactId>
 			<version>1.0.0</version>
+			<scope>system</scope>
+  <systemPath>${project.basedir}/src/main/java/services/rest/pojo/RetrieveAutoPolicyDetailV2-1.0.0.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>org.csaa.automation.c360.reg</groupId>
 			<artifactId>mdm-wsclient</artifactId>
 			<version>2.0.8</version>
+			<scope>system</scope>
+  <systemPath>${project.basedir}/src/main/java/services/rest/pojo/mdm-wsclient-2.0.8.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>org.csaa.automation.soa.hc</groupId>
 			<artifactId>RetrievePaymentTransactionalDetailsV2</artifactId>
 			<version>1.0.0</version>
+			<scope>system</scope>
+  <systemPath>${project.basedir}/src/main/java/services/rest/pojo/RetrievePaymentTransactionalDetailsV2-1.0.0.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>org.csaa.automation.eValue</groupId>
 			<artifactId>RetrievePolicySummary</artifactId>
 			<version>1.0.0-SNAPSHOT</version>
+			<scope>system</scope>
+  <systemPath>${project.basedir}/src/main/java/services/rest/pojo/RetrievePolicySummary-1.0.0-SNAPSHOT.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>org.csaa.automation.soa.hc</groupId>
 			<artifactId>FindPolicyFNOLV2</artifactId>
 			<version>1.0.0</version>
+			<scope>system</scope>
+  <systemPath>${project.basedir}/src/main/java/services/rest/pojo/FindPolicyFNOLV2-1.0.0.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>org.csaa.automation.soa.hc</groupId>
 			<artifactId>RetrieveCustomerDetailsV2</artifactId>
 			<version>1.0.0</version>
+			<scope>system</scope>
+  <systemPath>${project.basedir}/src/main/java/services/rest/pojo/RetrieveCustomerDetailsV2-1.0.0.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.json.stub.getpreference</groupId>
