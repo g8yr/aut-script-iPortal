@@ -10,7 +10,9 @@ Scenario Outline: eValue Policy Document Alert message:Chrome
 	When I click edit button from Paperless Preferences
 	Then I select Policy Documents as EMAIL and Policy billing as USMAIL
 	Then I see the Text : If you unenroll the customer from paperless notifications, their eValue discount will be removed.
-	And  I click Cancel button from Preference Window  
+	And  I click Save in iPortal
+	Then I check the Evalue NoneValue Icon Status
+	
 Examples:
 |Iteration|
 |1|	
@@ -21,7 +23,8 @@ Scenario Outline: eValue Policy Document Alert message:InternetExplorer
 	When I click edit button from Paperless Preferences
 	Then I select Policy Documents as EMAIL and Policy billing as USMAIL	
 	Then I see the Text : If you unenroll the customer from paperless notifications, their eValue discount will be removed.
-	And  I click Cancel button from Preference Window
+	And  I click Save in iPortal
+	Then I check the Evalue NoneValue Icon Status
 Examples:
 |Iteration|
 |2|	
@@ -32,7 +35,8 @@ Scenario Outline: eValue Policy Document Alert message:Firefox
 	When I click edit button from Paperless Preferences
 	Then I select Policy Documents as EMAIL and Policy billing as USMAIL
 	Then I see the Text : If you unenroll the customer from paperless notifications, their eValue discount will be removed.
-	And  I click Cancel button from Preference Window
+	And  I click Save in iPortal
+	Then I check the Evalue NoneValue Icon Status
 
 Examples:
 |Iteration|

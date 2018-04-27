@@ -17,6 +17,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 
+
 import ru.yandex.qatools.ashot.AShot;
 import ru.yandex.qatools.ashot.Screenshot;
 import ru.yandex.qatools.ashot.screentaker.ViewportPastingStrategy;
@@ -31,6 +32,7 @@ import com.Cucumber.supportLibraries.DriverManager;
 import com.Cucumber.supportLibraries.IPortalStaticValue;
 import com.Cucumber.supportLibraries.Util;
 import com.Cucumber.supportLibraries.Webaction;
+
 
 
 import cucumber.api.java.en.When;
@@ -123,112 +125,7 @@ public class iPortalPaperlessPreferencesFunctions extends MasterStepDefs
 				"image/png");
 	}	
 	
-	public void editpreferencesiPortal(String SourceSystem,String Policy_Documents_Enrollment,String Billing_Payment_Enrollment, String paymentreminder, String paymentconfirmation) {
-//		String prefenceedit = dataTable.getData(testParameter, "Evalue_IPortal", "EditPreference");
-//		String email = dataTable.getData(testParameter, "Evalue_IPortal", "PreferencesEmailId");
-//		String Policy_Documents_Enrollment = dataTable.getData(testParameter, "Evalue_IPortal", "Policy_Document_Enrollment");
-//		String Billing_Payment_Enrollment = dataTable.getData(testParameter, "Evalue_IPortal", "Billing_Payment_Enrollment");
-//		String paymentreminder = dataTable.getData(testParameter, "Evalue_IPortal", "PaymentReminderOptOut");
-//		String paymentconfirmation = dataTable.getData(testParameter, "Evalue_IPortal", "PaymentConfirmationOptOut");
-//		String SourceSystem = dataTable.getData(testParameter, "Evalue_IPortal", "Source_System");
-
-//		if(SourceSystem.equals("Legacy"))
-//			{
-//				if(action.isDisplayed(iPortalpaperlesspreferences.Get_Policy_Preference_Status,"Get_Policy_Preference_Status") && action.IsObjectPresent(iPortalpaperlesspreferences.Get_Policy_Preference_Status,"Get_Policy_Preference_Status"))
-//				{
-//					System.out.println("IPortal Preferences : Policy Documents Section is displayed");
-//					//report.updateTestLog("iPortal Preferences", "Policy Documents Section is displayed", Status.FAIL);
-//				}
-//				else
-//				{
-//					fail("<<<< IPortal Preferences : Policy Documents Section is not displayed >>>>");
-//					currentScenario.embed(Util.takeScreenshot(driver),"image/png");
-//					//report.updateTestLog("iPortal Preferences", "Policy Documents Section is not displayed", Status.PASS);
-//				}
-//			}
-//			else if(SourceSystem.equals("Mortgage"))
-//			{
-//				if(action.isDisplayed(iPortalpaperlesspreferences.Get_Billing_Preference_Text,"Billing_Payment_US_Mail_ID") && action.isDisplayed(iPortalpaperlesspreferences.Get_Billing_Preference_Text,"Billing_Payment_EMail_ID"))
-//				{
-//					System.out.println("IPortal Preferences : Policy Billing & Payments Section Alert Message is displayed");
-//					//report.updateTestLog("iPortal Preferences", "Policy Billing & Payments Section Alert Message is displayed", Status.PASS);
-//				}
-//				else
-//					//report.updateTestLog("iPortal Preferences", "Policy Billing & Payments Section Alert Message is not displayed", Status.FAIL);
-//					fail("<<<< IPortal Preferences : Policy Billing & Payments Section Alert Message is not displayed >>>>");
-//				currentScenario.embed(Util.takeScreenshot(driver),"image/png");
-//				String Mortgage_Alert = action.GetText(iPortalpaperlesspreferences.Get_Billing_Preference_Text);
-//				//messageValidation("iPortal Preferences",Mortgage_Alert);
-//				//GenFns.chkTheContent(SplitAddVehicleActionBlockTitleUI[1], Mortgage_Alert,StaticValue.AddvehicleActionBlockTitle);
-//			}
-//			else
-//			{
-//				if (Policy_Documents_Enrollment.equalsIgnoreCase("USMAIL")) {
-//					action.ClickJSElement(Policy_Document_US_Mail_ID, "Policy_Document_US_Mail_ID");
-//				} else if (Policy_Documents_Enrollment.equalsIgnoreCase("EMAIL")) {
-//					action.ClickJSElement(Policy_Document_EMail_ID, "Policy_Document_EMail_ID");
-//				}
-//				if (Billing_Payment_Enrollment.equalsIgnoreCase("USMAIL")) {
-//					action.ClickJSElement(Billing_Payment_US_Mail_ID, "Billing_Payment_US_Mail_ID");
-//				} else if (Billing_Payment_Enrollment.equalsIgnoreCase("EMAIL")) {
-//					action.ClickJSElement(Billing_Payment_EMail_ID, "Billing_Payment_EMail_ID");
-//				}
-//			}
-//			
-//			if (paymentreminder.equalsIgnoreCase("YES")) {
-//				action.ClickJSElement(PaymentReminders_Checkbox, "paymentreminder");
-//			}
-//			if (paymentconfirmation.equalsIgnoreCase("YES")) {
-//				action.ClickJSElement(PaymentConfirrmation_Checkbox, "paymentconfirmation");
-//			}
-//			
-//			// EnterText(Edit_Email, email, "email");
-//			if(isDisplayednew(Edit_Email,"PREFERENCE_EMAIL")&&isEnabled(Edit_Email,"PREFERENCE_EMAIL"))
-//			{
-//				if(!email.isEmpty() && (email != null))
-//				{
-//					ClickJSElement(Edit_Email_Clear, "Edit_Email_Clear");					
-//					EnterTextWithJS(Edit_Email, email, "email");
-//					HardDelay(300);
-//				}
-//			}			
-//			
-//			ClickJSElement(Save_button, "SAVE");
-//			
-//			HardDelay(300);
-//			if(isDisplayednew(PREFERENCE_EMAIL,"PREFERENCE_EMAIL")&&IsObjectPresent(PREFERENCE_EMAIL,"PREFERENCE_EMAIL")&&!email.isEmpty())
-//			{
-//				String Email_Address = GetText(PREFERENCE_EMAIL,"PREFERENCE_EMAIL");
-//				if(Email_Address.equalsIgnoreCase(email)) 
-//				{
-//					report.updateTestLog("Preferences ", "Email Address are updated successfully", Status.PASS);
-//				}
-//				else
-//				{
-//					report.updateTestLog("Preferences ", "Error in updating Email Address in iPortal", Status.FAIL);
-//				}
-//			}
-//			HardDelay(300);
-//			if (isTextPresent("The customer must confirm enrollment via the email sent.")) {
-//				report.updateTestLog("Preferences ", "Paperless preferences details are updated successfully", Status.PASS);
-//			} else {
-//				report.updateTestLog("Preferences ", "Error in updating preferences in iPortal", Status.FAIL);
-//			}
-//			
-//			//Validate Email Alert message when Edit_Email is empty 
-//			if(isDisplayednew(Edit_Email_Alert,"Edit_Email_Alert")&&(IsObjectPresent(Edit_Email_Alert,"Edit_Email_Alert")))
-//			{
-//				Alert_Text_Displayed = GetText(Edit_Email_Alert,"Edit_Email_Alert");
-//				messageValidation("Preferences", Alert_Text_Displayed);
-//			}
-//			
-//			switchToDefault();
-//			// switchToFrame(getLastFrame());
-//			// ClickJSElement(PAS_Done_Button, "PAS_Done_Button");
-//			// ajaxFluentPredicateWaitnew();
-//			// HardDelay(8000);
-		
-	}
+	
 
 	public void editPolicyDocumentsBilling(String Policy_Documents_Enrollment,String Billing_Payment_Enrollment) 
 	{
@@ -419,6 +316,42 @@ public class iPortalPaperlessPreferencesFunctions extends MasterStepDefs
 				}
 				
 				}		
+	}
+
+	public void ChkPaymentReminderConfirmationStatus(String status) 
+	{
+		if(status.equalsIgnoreCase("off"))
+		{
+			if((action.isEnabled(iPortalpaperlesspreferences.PaymentReminders_Checkbox, "PaymentReminders_Checkbox"))&&(action.isEnabled(iPortalpaperlesspreferences.PaymentConfirrmation_Checkbox,"PaymentConfirrmation_Checkbox")))
+			{
+				fail("<<<< Paperless Preference: Payment Remainders and Payment Confirmations are turned On for OptOut Policy >>>>");
+				currentScenario.embed(Util.takeScreenshot(driver),
+						"image/png");
+			}
+			else
+			{
+				System.out.println("Paperless Preference: Payment Remainders and Payment Confirmations are turned Off for OptOut Policy");
+				currentScenario.embed(Util.takeScreenshot(driver),
+						"image/png");
+			}
+		}
+		else if(status.equalsIgnoreCase("on"))
+		{
+			if((action.isEnabled(iPortalpaperlesspreferences.PaymentReminders_Checkbox, "PaymentReminders_Checkbox"))&&(action.isEnabled(iPortalpaperlesspreferences.PaymentConfirrmation_Checkbox,"PaymentConfirrmation_Checkbox")))
+			{
+				System.out.println("Paperless Preference: Payment Remainders and Payment Confirmations are turned On for OptOut Policy");
+				currentScenario.embed(Util.takeScreenshot(driver),
+						"image/png");
+				
+			}
+			else
+			{
+				fail("<<<< Paperless Preference: Payment Remainders and Payment Confirmations are turned Off for OptOut Policy >>>>");
+				currentScenario.embed(Util.takeScreenshot(driver),
+						"image/png");
+			}
+		}
+		
 	}
 
 }

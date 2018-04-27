@@ -93,3 +93,12 @@ Evalue Pending Icon Status Validation:Firefox,FIREFOX,58,WINDOWS
 Evalue NoneValue Icon Status Validation:Chrome,CHROME,64,WINDOWS
 Evalue NoneValue Icon Status Validation:InternetExplorer,INTERNET_EXPLORER,11,WINDOWS
 Evalue NoneValue Icon Status Validation:Firefox,FIREFOX,58,WINDOWS
+Validate the Evalue Status on saving preference without any changes:Chrome,CHROME,64,WINDOWS
+Validate the Evalue Status on saving preference without any changes:InternetExplorer,INTERNET_EXPLORER,11,WINDOWS
+Validate the Evalue Status on saving preference without any changes:Firefox,FIREFOX,58,WINDOWS
+Validate payment remainders and confirmations are turned off:Chrome,CHROME,64,WINDOWS
+Validate payment remainders and confirmations are turned off:InternetExplorer,INTERNET_EXPLORER,11,WINDOWS
+Validate payment remainders and confirmations are turned off:Firefox,FIREFOX,58,WINDOWS
+Validate payment remainders and confirmations are turned on:Chrome,CHROME,64,WINDOWS
+Validate payment remainders and confirmations are turned on:InternetExplorer,INTERNET_EXPLORER,11,WINDOWS
+Validate payment remainders and confirmations are turned on:Firefox,FIREFOX,58,WINDOWS

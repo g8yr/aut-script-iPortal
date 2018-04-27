@@ -96,4 +96,11 @@ public class iPortalPaperlessPreferencesDef extends MasterStepDefs
 	{
 		iPortalpaperlesspreferencesfunctions.ValidateEValueIconStatus(EvalueStatus);
 	}
+	
+	@And("^I check Payment Reminders and Payment Confirmations are automatically turned (.*)$")
+	public void ChkPaymentReminderConfirmation(String Status)
+	{
+		iPortalpaperlesspreferencesfunctions.ChkPaymentReminderConfirmationStatus(Status);
+	}
+	
 }

@@ -36,4 +36,10 @@ public class iPortalPaperlessPreferencesPage
 	public By EValue_Status_Active = By.xpath("//div[.='eValue']");
 	public By EValue_Status_Pending = By.xpath("//div[.='eValue Pending']");
 	public By EValue_Status_Text = By.xpath("//div[@class='membership-container']/div[1]");
+	
+
+	public By PaymentReminders_Checkbox = By.xpath("//div[.='Billing & Payments']/parent::div/following-sibling::div//div[.='Payment Reminders ']/parent::div//label/span");
+	//public By PaymentReminders_Checkbox = By.xpath("//div[@id='reminderSwitch']");
+	public By PaymentConfirrmation_Checkbox = By.xpath("//div[.='Billing & Payments']/parent::div/following-sibling::div//div[.='Payment Confirmations']/parent::div//label/span");
+	//public By PaymentConfirrmation_Checkbox = By.xpath("//div[@id='confirmationSwitch']");
 }

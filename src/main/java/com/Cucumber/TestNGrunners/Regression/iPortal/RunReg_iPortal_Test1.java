@@ -29,7 +29,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 @CucumberOptions(
 
 		features = "src/test/resources/features/Regression/iPortal", glue = { "stepDefinitions" }, tags = { 
-				"@EValue" }, monochrome = true, plugin = {"pretty:target/cucumber-report/Smoke/pretty.txt",
+				"@OptInBillingandPaymentsValidation,@OptOutBillingandPaymentsValidation" }, monochrome = true, plugin = {"pretty:target/cucumber-report/Smoke/pretty.txt",
 				"html:target/cucumber-report/Smoke",
 				"json:target/cucumber-report/Smoke/cucumber.json",
 				"ru.yandex.qatools.allure.cucumberjvm.AllureReporter" })
